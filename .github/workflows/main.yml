@@ -3,7 +3,7 @@ name: ViaShare Builder
 on:
   push:
     tags:
-      - T*
+      - V*
 # 并发策略
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
